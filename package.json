@@ -1,0 +1,29 @@
+{
+  "name": "sparql-runner",
+  "version": "0.0.1",
+  "description": "A cute lil VS Code extension for running SPARQL queries to see what happens.",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "activationEvents": [],
+  "main": "index.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.sparqlRunner",
+        "title": "SPARQL Runner"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vscode": "^1.1.37"
+  },
+  "dependencies": {
+    "oxigraph": "^0.4.4"
+  }
+}
